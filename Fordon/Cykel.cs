@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace farkost.Fordon
+namespace farkost.farkostTyp
 {
-    class Cykel
+    public class Cykel : Fordon
     {
     }
 }

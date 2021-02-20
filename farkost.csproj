@@ -43,12 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="farkostTyp\Fordon.cs" />
+    <Compile Include="farkostTyp\Luftfarkost.cs" />
+    <Compile Include="farkostTyp\Rymdfarkost.cs" />
+    <Compile Include="farkostTyp\Vattenfarkost.cs" />
     <Compile Include="Fordon\Bil.cs" />
     <Compile Include="Fordon\Buss.cs" />
     <Compile Include="Fordon\Cykel.cs" />
     <Compile Include="Fordon\Lastbil.cs" />
-    <Compile Include="Interface\farkostModel.cs" />
-    <Compile Include="Interface\IFarkostModel.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Interface\IFarkostModell.cs" />
+    <Compile Include="Interface\IFarkostModellLuftfarkost.cs" />
+    <Compile Include="Interface\IFarkostModellFordon.cs" />
+    <Compile Include="Interface\IFarkostModellVatten.cs" />
+    <Compile Include="Interface\IRymdfarkostModell.cs" />
     <Compile Include="Luftfarkost\Flygplan.cs" />
     <Compile Include="Luftfarkost\Helikopter.cs" />
     <Compile Include="Program.cs" />

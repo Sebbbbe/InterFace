@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace farkost.Rymdfarkost
+namespace farkost.farkostTyp
 {
-    class rymdskepp
+    public class Rymdskepp : Rymdfarkost
     {
+
     }
 }

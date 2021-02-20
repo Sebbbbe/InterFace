@@ -4,24 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using farkost.farkostTyp;
 
-namespace farkost.Fordon
+namespace farkost.farkostTyp
 {
-    public class Bil : IFarkostModel
+
+
+    public class Bil : Fordon
     {
- 
-        public Bil()
-        {
-
-        }
-        public string FarkostTyp { get; set; }
-        public string FarkostNamn { get; set; }
-        public int MaxHastighet { get; set; }
-        public string Märke { get; set; }
-        public string ModelName { get; set; }
-
-        public int ReleaseYear { get; set; }
-
-        public int HurMångaHjul { get; set; }
-    }
+    
+}
 }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace farkost.farkostTyp
+namespace farkost.Interface
 {
-    public class Helikopter : Luftfarkost
+    interface IRymdfarkostModell : IFarkostModell
     {
+        int Kostnad { get; set; }
     }
 }

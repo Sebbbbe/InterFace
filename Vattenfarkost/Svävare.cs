@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace farkost.Vattenfarkost
+namespace farkost.farkostTyp
 {
-    class Svävare
+   public class Svävare : Vattenfarkost
     {
     }
 }

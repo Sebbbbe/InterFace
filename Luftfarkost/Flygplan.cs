@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace farkost.Luftfarkost
+namespace farkost.farkostTyp
 {
-    public class Flygplan
+    public class Flygplan : Luftfarkost
     {
         
     }

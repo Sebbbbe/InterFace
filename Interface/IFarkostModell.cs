@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace farkost.Interface
 {
-   public interface IFarkostModel
+   public interface IFarkostModell
     {
         string FarkostTyp { get; set; }
          string FarkostNamn { get; set; }
