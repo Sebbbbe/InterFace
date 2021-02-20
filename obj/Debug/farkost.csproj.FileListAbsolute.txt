@@ -1,0 +1,7 @@
+C:\Users\sebas\source\repos\farkost\farkost\bin\Debug\farkost.exe.config
+C:\Users\sebas\source\repos\farkost\farkost\bin\Debug\farkost.exe
+C:\Users\sebas\source\repos\farkost\farkost\bin\Debug\farkost.pdb
+C:\Users\sebas\source\repos\farkost\farkost\obj\Debug\farkost.csprojAssemblyReference.cache
+C:\Users\sebas\source\repos\farkost\farkost\obj\Debug\farkost.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\farkost\farkost\obj\Debug\farkost.exe
+C:\Users\sebas\source\repos\farkost\farkost\obj\Debug\farkost.pdb
