@@ -12,6 +12,7 @@ namespace farkost.farkostTyp
 
     public class Bil : Fordon
     {
+        
     
 }
 }

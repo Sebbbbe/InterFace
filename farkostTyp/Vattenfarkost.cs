@@ -17,6 +17,8 @@ namespace farkost.farkostTyp
 
         public int ReleaseYear { get; set; }
 
+        public int FarkostID { get; set; }
+
         public string längd { get; set; }
     }
 }

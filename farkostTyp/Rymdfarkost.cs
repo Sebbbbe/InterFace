@@ -1,4 +1,5 @@
-﻿using System;
+﻿using farkost.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace farkost.farkostTyp
 {
-   public class Rymdfarkost
+   public class Rymdfarkost : IRymdfarkostModell
     {
         public string FarkostTyp { get; set; }
         public string FarkostNamn { get; set; }
@@ -15,6 +16,8 @@ namespace farkost.farkostTyp
         public string ModelName { get; set; }
 
         public int ReleaseYear { get; set; }
+
+        public int FarkostID { get; set; }
 
         public int Kostnad { get; set; }
 

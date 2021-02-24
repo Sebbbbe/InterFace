@@ -16,5 +16,7 @@ namespace farkost.Interface
        
       
         int ReleaseYear { get; set; }
+
+        int FarkostID { get; set; }
     }
 }

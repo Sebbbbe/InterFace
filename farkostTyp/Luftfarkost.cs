@@ -16,7 +16,7 @@ namespace farkost.farkostTyp
         public string ModelName { get; set; }
 
         public int ReleaseYear { get; set; }
-     
+        public int FarkostID { get; set; }
         public int AntalSittPlatser { get; set; }
     }
 }

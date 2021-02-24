@@ -17,5 +17,7 @@ namespace farkost.farkostTyp
 
         public int ReleaseYear { get; set; }
         public int hjul { get; set; }
+
+        public int FarkostID { get; set; }
     }
 }
