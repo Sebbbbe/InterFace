@@ -31,7 +31,7 @@ namespace farkost
 
 
             var farkostTypLista = farkost.Select(x => x.FarkostTyp);
-            var farkostTypLista2 = farkost.Where(x => x.FarkostTyp == "Fordon");
+            
             var unikaFarkostTyper = farkostTypLista.Distinct().ToList();
 
             Console.WriteLine("Vilka farkosttyp vill du veta mer om");
@@ -44,19 +44,29 @@ namespace farkost
 
 
 
+           
+
             inputValue = int.Parse(Console.ReadLine());
+            Console.Clear();
 
-
-
+         
             
-     
+
 
 
             foreach (var item in farkost)
             {
-               
-               
+                if (inputValue == item.FarkostID)
+                {
+                    Console.WriteLine(item.FarkostNamn);
+                }
+
             }
+
+            
+
+            
+
 
         }
 
